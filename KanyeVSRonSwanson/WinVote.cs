@@ -17,12 +17,12 @@ namespace KanyeVSRonSwanson
                 bool inputKey;
 
                 do {
-                    if (winner == "kanye")
+                    if (winner.Contains("kanye"))
                     {
                         Console.WriteLine("\nThat's right Kanye West at his Kanye Best, putting Ron Swanson to Kanye Rest!");
                         break;
                     }
-                    else if (winner == "ron swanson" || winner == "ron")
+                    else if (winner.Contains("ron"))
                     {
                         Console.WriteLine("\nEverything I do is the attitude of an award winner, because I've won an award.");
                         break;
