@@ -22,7 +22,7 @@ namespace KanyeVSRonSwanson
                         Console.WriteLine("\nThat's right Kanye West at his Kanye Best, putting Ron Swanson to Kanye Rest!");
                         break;
                     }
-                    else if (winner == "ron Swanson" || winner == "ron")
+                    else if (winner == "ron swanson" || winner == "ron")
                     {
                         Console.WriteLine("\nEverything I do is the attitude of an award winner, because I've won an award.");
                         break;
